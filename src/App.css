@@ -1,0 +1,24 @@
+
+/* Styles for the layout container */
+body {
+  margin: 0;
+  background-color: #2B2D38;
+  height: 100%;
+}
+
+.layout {
+  min-height: 100vh;
+  display: flex;
+  padding: 20px;
+}
+/* Styles for the title inside the layout */
+.title {
+  position: absolute;
+  top: 330px; /* Y position */
+  left: 160px; /* X position */
+  width: 700px; /* Width */
+  height: 500px; /* Height */
+  color: white;
+  font-size: 80px;
+  font-weight: bold;
+}
