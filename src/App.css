@@ -22,3 +22,27 @@ body {
   font-size: 80px;
   font-weight: bold;
 }
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+.title {
+  overflow: hidden;
+  white-space: nowrap;
+  animation: typing 3s steps(20, end), blink 0.5s step-end infinite alternate;
+}
+
+@keyframes blink {
+  from, to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: red;
+  }
+}
