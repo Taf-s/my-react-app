@@ -21,6 +21,9 @@ body {
   color: white;
   font-size: 80px;
   font-weight: bold;
+  overflow: hidden;
+  white-space: pre-wrap;
+  animation: typing 3s steps(20, end), blink 0.5s step-end infinite alternate;
 }
 
 @keyframes typing {
@@ -30,12 +33,6 @@ body {
   to {
     width: 100%;
   }
-}
-
-.title {
-  overflow: hidden;
-  white-space: pre-wrap;
-  animation: typing 3s steps(20, end), blink 0.5s step-end infinite alternate;
 }
 
 @keyframes blink {
