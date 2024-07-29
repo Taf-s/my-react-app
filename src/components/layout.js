@@ -11,6 +11,17 @@ const Layout = () => {
         <h2 className="subtitle-1">Software Development</h2>
         <h3 className="subtitle-2">Brand Consulting</h3>
       </div>
+      <div className="about-me">
+        <h1 className="about-me-title">
+          Software Developer Based in Cape Town
+        </h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          <br /> Lorem ipsum dolor sit amet consectetur adipisicing elit. sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        </p>
+      </div>
     </div>
   );
 };
