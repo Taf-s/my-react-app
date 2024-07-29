@@ -17,10 +17,11 @@ body {
 /* Styles for the title inside the layout */
 .heading {
   position: relative;
-  top: 173px; /* Y position */
-  left: 682px; /* X position */
+  top: 174px; /* Y position */
+  left: 623px; /* X position */
   width: 517px; /* Width */
   height: 123px; /* Height */
+  align-items: center;
 }
 .title {
   color: black;
@@ -28,14 +29,15 @@ body {
   font-weight: bold;;
   overflow: hidden;
   white-space: pre-wrap;
+  text-align: center;
 }
 
 .services {
   position: fixed;
-  top: 379px; /* Y position */
+  top: 401px; /* Y position */
   left: 160px; /* X position */
-  width: 294px; /* Width */
-  height: 392px; /* Height */
+  width: 408px; /* Width */
+  height: 434px; /* Height */
 }
 
 .services-title {
@@ -64,8 +66,8 @@ body {
 
 .about-me {
   position: relative;
-  top: 378px; /* Y position */
-  left: 1352px; /* X position */
+  top: 370px; /* Y position */
+  right: -660px; /* X position */
   width: 408px; /* Width */
   height: 434px; /* Height */
 }
