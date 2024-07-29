@@ -1,10 +1,13 @@
 
-/* Styles for the layout container */
 body {
   margin: 0;
-  background-color: #2B2D38;
+  background-image:url("background.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
   height: 100%;
 }
+
+/* Styles for the layout container */
 
 .layout {
   min-height: 100vh;
@@ -12,34 +15,20 @@ body {
   padding: 20px;
 }
 /* Styles for the title inside the layout */
+.heading {
+  position: relative;
+  top: 173px; /* Y position */
+  left: 682px; /* X position */
+  width: 517px; /* Width */
+  height: 123px; /* Height */
+}
 .title {
-  position: absolute;
-  top: 330px; /* Y position */
-  left: 160px; /* X position */
-  width: 700px; /* Width */
-  height: 500px; /* Height */
-  color: white;
+
+
+  color: black;
   font-size: 80px;
-  font-weight: bold;
+  font-weight: bold;;
   overflow: hidden;
   white-space: pre-wrap;
-  animation: typing 3s steps(20, end), blink 0.5s step-end infinite alternate;
 }
 
-@keyframes typing {
-  from {
-    width: 0;
-  }
-  to {
-    width: 100%;
-  }
-}
-
-@keyframes blink {
-  from, to {
-    border-color: transparent;
-  }
-  50% {
-    border-color: red;
-  }
-}
